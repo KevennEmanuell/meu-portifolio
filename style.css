@@ -135,7 +135,7 @@ section.projetos h2{
 .btn-button-life{
     margin-top:20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .btn-button-life button{
     cursor: pointer;
@@ -157,7 +157,7 @@ section.contato{
     padding: 100px 4%;
 }
 section.contato .flex{
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     justify-content: space-around;
     border: 2px solid #0D0D0D;
@@ -200,16 +200,40 @@ footer .final p a {
     .tela-inicial{
         width: 100%;
     } 
-    .tela-inicial .logo a{
-        font-size: 40px;
-        margin: 5px 10px;
-    }
+   
     h2{
-        font-size: 45px;
+        font-size: 70px;
         text-align: center;
         color: #0D0D0D;
     }  
      /*  -----------------------fim do geral-----------------*/
+    .tela-inicial .logo a{
+        font-size: 60px;
+        margin: 10px 50px;
+    }
+    section.contato .flex{
+        position: relative;
+        left: 200px;
+     }
+     section.contato .flex{
+        display: flex;
+        max-width: 500px;
+        height: auto;
+     }
+     section.topo-do-site .redes-socias a{
+        font-size: 50px;
+     }
+     section.topo-do-site .left-img img{
+        width: 750px;
+        height: auto;
+     }
+     section.sobre .sobre-right img{
+        width: 750px;
+        height: auto;
+     }
+    header {
+        position: absolute;
+    }
     header .tela-inicial .redes-socias{
         display: none
     }
@@ -235,6 +259,12 @@ footer .final p a {
         font-size: 20px;
         color: #0D0D0D;
     }
-   
+    .img-pro{
+        width: 700px;
+        height: 700px; 
+    }
+    .btn-button-life button{
+        width: 200px;
+    }
     }
     
