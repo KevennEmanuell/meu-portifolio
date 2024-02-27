@@ -1,0 +1,102 @@
+@media screen and (max-width:1050px){
+    /*  -----------------------geral-----------------*/
+    .tela-inicial .flex{
+        flex-direction: column;
+    }   
+    .tela-inicial{
+        width: 100%;
+    } 
+   
+    h2{
+        font-size: 70px;
+        text-align: center;
+        color: #0D0D0D;
+    }   
+    .tela-inicial .logo a{
+        font-size: 90px;
+        margin: 40px;
+        margin-bottom: 20px;
+    }
+    /*  -----------------------fim do geral-----------------*/
+
+    /*  -----------------------Header-----------------*/
+    }
+    header .tela-inicial .redes-socias{
+        display: none
+    }
+    header .tela-inicial .nav{
+        display: none
+    }
+     /*  -----------------------fim do header-----------------*/
+
+      /*  -----------------------topo do site-----------------*/
+    section.topo-do-site .flex{
+        margin-top: 100px;
+        flex-direction: column-reverse;
+    }
+    section.topo-do-site .redes-socias a{
+        font-size: 70px;
+     }
+     section.topo-do-site .left-img img{
+        width: 750px;
+        height: auto;
+     }
+     /*  -----------------------fim do topo-----------------*/
+
+     /*  -----------------------sobre-----------------*/
+     section.sobre .sobre-right img{
+        width: 750px;
+        height: auto;
+     }
+    .sobre-left p{
+        font-size: 17px; 
+        text-align:center;
+    }
+    .left-img img{
+        width: 500px;
+        height: auto;
+    }
+
+     /*  -----------------------fim do sobre-----------------*/
+
+     /*  -----------------------projetos-----------------*/
+    .img-pro{
+        width: 700px;
+        height: 700px; 
+    }
+    .btn-button-life {
+        gap: 20px;
+
+    }
+    .btn-button-life button{
+        width: 300px;
+        font-size: 40px;
+        
+    }
+     /*  -----------------------fim dos projetos-----------------*/
+
+      /*  -----------------------contatos-----------------*/
+    
+    section.contato .flex{
+        gap: 20px;
+        position: relative;
+        left: 20px;
+        display: flex;
+        max-width: 900px;
+        height: auto;
+        border: none;
+     }
+     section.contato .flex p {
+        font-size: 50px;
+    }
+    /*  -----------------------fim dos contatos-----------------*/  
+    /*  -----------------------rodape-----------------*/
+    footer .tela-inicial .redes-socias{
+        display: none;
+    }
+    footer .final p {
+        font-size: 45px;
+        color: #0D0D0D;
+    }
+    /*  -----------------------fim do rodape-----------------*/
+    }
