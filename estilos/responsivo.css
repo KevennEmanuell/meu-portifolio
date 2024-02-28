@@ -20,9 +20,9 @@
     /*  -----------------------fim do geral-----------------*/
 
     /*  -----------------------Header-----------------*/
-    }
-    header .tela-inicial .redes-socias{
-        display: none
+    header .tela-inicial .redes-socias a i{
+        font-size:70px;
+        padding: 0 20px;
     }
     header .tela-inicial .nav{
         display: none
@@ -98,5 +98,5 @@
         font-size: 45px;
         color: #0D0D0D;
     }
+}
     /*  -----------------------fim do rodape-----------------*/
-    }
